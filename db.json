@@ -1,11 +1,48 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
+    "users": 
+    [
+        {
+            "id" : 1,
+            "name" : "User1",
+            "username" : "user1",
+            "email" : "user1@dsomedomain.com",
+            "address" : {
+              "street": "123 Main",
+              "suite": "Ste 1",
+              "city": "Some City",
+              "zipcode": "11223",
+              "geo": {
+                "lat": "0.0",
+                "lng": "0.0"
+              },
+             "phone": "123-456-7890",
+             "website": "www.google.com",
+             "company": {
+                "name": "My Company",
+                "catchPhrase" : "My catchphrase",
+                "bs": "bs"
+              }
+            }              
+        }
     ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
+    "posts" : 
+    [
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "The Title",
+            "body": "the body"
+        }
+    ],
+
+    "comment" : 
+    [   
+        {
+            "postId": 1,
+            "id": 1,
+            "name": "My Name",
+            "email": "myemail@somedomain.com",
+            "body": "Comment body"
+        }   
+    ]
+}
